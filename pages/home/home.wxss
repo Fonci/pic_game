@@ -1,0 +1,38 @@
+/* pages/home/home.wxss */
+.wrap {
+  width: 100%;
+}
+
+.content {
+  width: 80%;
+  height: auto;
+  margin: 200rpx auto;
+
+}
+.avtive{
+  width: 33%;
+  height: 180rpx;
+  background-color: rgb(228, 222, 222);
+  border: 1rpx solid rgb(189, 169, 169);
+  border-radius: 8px;
+}
+.pic_box {
+  width: 33%;
+  height: 180rpx;
+  float: left;
+  font-size: 40rpx;
+  color: grey;
+  font-weight: bold;
+  line-height: 180rpx;
+  text-align: center;
+  background-color: rgb(228, 222, 222);
+  border: 1rpx solid rgb(189, 169, 169);
+  border-radius: 8px;
+}
+.mini-btn{
+  margin-top: 30rpx;
+}
+.time{
+  font-size: 26rpx;
+  color:gray;
+}

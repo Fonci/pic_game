@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<view class="wrap">
+	<!-- <text>智力拼图</text> -->
+	<view class="content">
+		<view wx:for='{{dataStar}}' wx:for-item='item' wx:for-index='index' wx:key='index' class="pic_box" bindtap="moveSquare" data-index="{{index}}" data-item="{{item}}">{{item==9?"":item}}</view>
+		<button class=" mini-btn" type="primary" size="mini" bindtap="startGame">开始</button>
+		<view class="time"> 用时：{{time}} s</view>
+	</view>
+</view>
