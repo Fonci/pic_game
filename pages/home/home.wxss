@@ -5,20 +5,22 @@
 
 .content {
   width: 80%;
-  height: auto;
-  margin: 200rpx auto;
-
+  height: 54vh;
+  margin: 200rpx auto 0;
+  overflow: hidden;
 }
-.avtive{
-  width: 33%;
-  height: 180rpx;
+
+.avtive {
+  width: 32%;
+  height: 200rpx;
   background-color: rgb(228, 222, 222);
   border: 1rpx solid rgb(189, 169, 169);
   border-radius: 8px;
 }
+
 .pic_box {
-  width: 33%;
-  height: 180rpx;
+  width: 32%;
+  height: 200rpx;
   float: left;
   font-size: 40rpx;
   color: grey;
@@ -29,10 +31,13 @@
   border: 1rpx solid rgb(189, 169, 169);
   border-radius: 8px;
 }
-.mini-btn{
-  margin-top: 30rpx;
-}
-.time{
-  font-size: 26rpx;
-  color:gray;
+
+
+
+.time {
+  font-size: 30rpx;
+  color: #444;
+  width:100%;
+  margin: 0 0 20rpx  72rpx;
+  text-align: left;
 }
